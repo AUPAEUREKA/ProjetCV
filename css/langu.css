@@ -1,0 +1,205 @@
+body{
+	font-family: 'Oswald', sans-serif;
+	background-color: white;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+}
+
+
+em{
+	color : red;
+}
+
+@media screen and (max-width: 768px){
+	body{
+		background-image: url(../image/BackgroundResponsive.jpg);
+		font-size: 35px;
+		color: white;
+	}
+
+	ul li { 
+		display : inline;
+		padding : 0 0.5em;
+		font-size: 20px;
+		color: white;
+	}
+	ul {
+		list-style-type : none;
+		text-align: center;
+		font-size: large;
+		font-size: 30px;
+		color: red;
+	}
+	
+	a {
+		color : brown;
+		text-decoration: none;
+	}
+
+	ul li i{
+		margin: 10px;
+		color : black;
+	}
+
+	h2 {
+		color: brown;
+	}
+
+	p {
+		font-size: 20px;
+		color: white;
+	}
+
+	.logoSociaux {
+		width: 50px;
+	}
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px){
+	body{
+		background-image: url(../image/BackgroundMD.jpg);
+		font-size: 35px;
+		color: white;
+	}
+
+	ul li { 
+		display : inline;
+		padding : 0 0.5em;
+		font-size: 20px;
+		color: yellow;
+	}
+	ul {
+		list-style-type : none;
+		text-align: center;
+		font-size: large;
+		font-size: 30px;
+		color: red;
+	}
+	
+	a {
+		color : black;
+		text-decoration: none;
+	}
+
+	ul li i{
+		margin: 10px;
+		color : black;
+	}
+
+	img {
+		width : 50%;
+	}
+
+	h2 {
+		color: black;
+	}
+
+	p {
+		font-size: 30px;
+		color: #0FFF00;
+	}
+
+	.logoSociaux {
+		width: 100px;
+	}
+}
+
+@media screen and (min-width: 992px) and (max-width: 1200px){
+	body{
+		background-image: url(../image/BackgroundSM.jpg);
+		font-size: 35px;
+		color: white;
+	}
+
+	ul li { 
+		display : inline;
+		padding : 0 0.5em;
+		font-size: 20px;
+		color: silver;
+	}
+	ul {
+		list-style-type : none;
+		text-align: center;
+		font-size: large;
+		font-size: 30px;
+		color: white;
+	}
+
+	a {
+		color : cyan;
+		text-decoration: none;
+	}
+
+	ul li i{
+		margin: 10px;
+		color : black;
+	}
+
+	img {
+		width : 50%;
+	}
+
+	h2 {
+		color: cyan;
+	}
+
+	p {
+		font-size: 30px;
+		color: orange;
+	}
+
+	.logoSociaux {
+		width: 100px;
+	}
+}
+
+@media screen and (min-width: 1200px){
+	body {
+		background-image: url(../image/BackgroundDesktop.jpg);
+		font-size: 35px;
+		color : white;
+	}
+
+	ul li { 
+		display : inline;
+		padding : 0 0.5em;
+		font-size: 20px;
+		color: red;
+	}
+	ul {
+		list-style-type : none;
+		text-align: center;
+		font-size: large;
+		font-size: 30px;
+		color: white;
+	}
+	
+	a {
+		color : blue;
+		text-decoration: none;
+	}
+
+	ul li i{
+		margin: 10px;
+		color : black;
+	}
+
+	img {
+		width : 50%;
+	}
+
+	h2 {
+		color: blue;
+	}
+
+	p {
+		font-size: 30px;
+		color: white;
+	}
+
+	.logoSociaux {
+		width: 100px;
+	}
+}
